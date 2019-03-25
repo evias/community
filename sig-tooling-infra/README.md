@@ -21,7 +21,7 @@ The Chairs of the SIG run operations and processes governing the SIG.
 
 ## Subprojects
 
-The following subprojects are owned by sig-docs:
+The following subprojects are owned by sig-tooling-infra:
 
 * **[catapult-service-bootstrap](https://github.com/nemtech/catapult-service-bootstrap)**
 
