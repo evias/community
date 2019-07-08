@@ -30,34 +30,37 @@ Following table describes the status attributions for each of the icons that wil
 | :o: | Work in Progress (WIP) |
 | :stop_sign: | Feature is not available. |
 
-### Elephant: Protocol v0.5.0.1
+### Elephant: [Protocol v0.5.0.1](https://github.com/nemtech/catapult-server/releases/tag/v0.5.0.1)
 
-| feature | server@0.5.0.1 | rest@0.16.0 | sdk-js@0.13.0 | sdk-java@? | sdk-python@? | sdk-unity@? | sdk-php@? |
+| feature | [server@0.5.0.1](https://github.com/nemtech/catapult-server/releases/tag/v0.5.0.1) | [rest@0.7.15](https://github.com/nemtech/catapult-rest/releases/tag/v0.7.15) | [sdk-js@0.13.0](https://github.com/nemtech/nem2-sdk-typescript-javascript/releases/tag/v0.13.0) | sdk-java@? | sdk-python@? | sdk-unity@? | sdk-php@? |
 | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | reset transaction version | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | rename properties to restrictions | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
-| consensus update PoS+ | :question:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
-| enhanced delegated harvesting | :question:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
-| metadata key-value| :question:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| consensus update PoS+ | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| mosaic restrictions| :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| enhanced delegated harvesting | :o:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| metadata key-value| :o:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 
-### Dragon: [Protocol v0.4.0.1](https://github.com/nemtech/catapult-server/milestone/5)
+### Dragon: [Protocol v0.4.0.1](https://github.com/nemtech/catapult-server/releases/tag/v0.4.0.1)
 
-| feature | server@0.4.0.1 | rest@0.15.0 | sdk-js@0.12.4 | sdk-java@? | sdk-python@? | sdk-unity@? | sdk-php@? |
+| feature | [server@0.4.0.1](https://github.com/nemtech/catapult-server/releases/tag/v0.4.0.1) | [rest@0.7.15](https://github.com/nemtech/catapult-rest/releases/tag/v0.7.15) | [sdk-js@0.12.4](https://github.com/nemtech/nem2-sdk-typescript-javascript/releases/tag/v0.12.4) | sdk-java@? | sdk-python@? | sdk-unity@? | sdk-php@? |
 | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| hashlock with alias | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| hashlock with alias | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | optin cosigners | :white_check_mark: | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | lightning network | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | consensus PoS+ | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
-| generation hash | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| generation hash | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| dragon DTOs | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| secret proof recipient | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
 
-### Cow: [Protocol v0.3.0.2](https://github.com/nemtech/catapult-server/milestone/3)
+### Cow: [Protocol v0.3.0.2](https://github.com/nemtech/catapult-server/releases/tag/v0.3.0.2)
 
-| feature | [server@0.3.0.2](https://github.com/nemtech/catapult-server/releases/tag/v0.3.0.2) | [rest@0.7.14](https://github.com/nemtech/catapult-rest/releases/tag/v0.7.14) | [sdk-js@0.11.5](https://github.com/nemtech/nem2-sdk-typescript-javascript/releases/tag/v0.11.5) | [sdk-java@0.11-alpha](https://github.com/nemtech/nem2-sdk-java/releases/tag/v0.11-alpha) | sdk-python@? | sdk-unity@? | sdk-php@? |
+| feature | [server@0.3.0.2](https://github.com/nemtech/catapult-server/releases/tag/v0.3.0.2) | [rest@0.7.14](https://github.com/nemtech/catapult-rest/releases/tag/v0.7.14) | [sdk-js@0.11.6](https://github.com/nemtech/nem2-sdk-typescript-javascript/releases/tag/v0.11.6) | [sdk-java@0.11-alpha](https://github.com/nemtech/nem2-sdk-java/releases/tag/v0.11-alpha) | sdk-python@? | sdk-unity@? | sdk-php@? |
 | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| catbuffer | :white_check_mark:  | :stop_sign:  | :stop_sign:  |  :o: | :stop_sign: | :stop_sign: | :stop_sign: |
+| catbuffer | :white_check_mark:  | :stop_sign:  | :o:  |  :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | mosaic/namespace split | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark: | :stop_sign: | :stop_sign: |
 | aliases | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark: | :stop_sign: | :stop_sign: |
-| receipts | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :o: | :stop_sign: | :stop_sign: | :stop_sign: |
+| receipts | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | account props | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | fees | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark: | :o: | :stop_sign: | :stop_sign: |
 | delegated harvesting | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :stop_sign: | :stop_sign: | :stop_sign: |
