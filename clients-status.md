@@ -22,7 +22,7 @@ The document should provide with an easy aggregation of all features addressed i
 Following client applications are taken into account for this compatibility status update:
 
 | Deliverable | Package Name | Codename | Repository URL |
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 | **Wallets** | | | |
 | Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | https://github.com/nemfoundation/nem2-wallet-browserextension |
 | Hatio RFP (iOS + Android) | nem2-wallet-mobile | W_Mob | N/A |
