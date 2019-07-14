@@ -22,7 +22,7 @@ The document should provide with an easy aggregation of all features addressed i
 Following client applications are taken into account for this compatibility status update:
 
 | Deliverable | Package Name | Codename | Repository URL |
-| :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: |
 | **Wallets** | | | |
 | Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | https://github.com/nemfoundation/nem2-wallet-browserextension |
 | Hatio RFP (iOS + Android) | nem2-wallet-mobile | W_Mob | N/A |
@@ -54,17 +54,17 @@ Following table describes the status attributions for each of the icons that wil
 
 ### Elephant: [Protocol v0.5.0.1][server-0501]
 
-| feature | [server@0.5.0.1][server-0501] | [W_Ext@?][wallet-ext] | [W_Mob@?][wallet-mob] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
+| feature | [server@0.5.0.1][server-0501] | [W_Ext@?][wallet-extension] | [W_Mob@?][wallet-mobile] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | reset transaction version | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | rename properties to restrictions | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | consensus update PoS+ | :question:  | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | enhanced delegated harvesting | :o:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
-| metadata key-value| :question: | :o:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
+| metadata key-value | :question: | :o:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 
 ### Dragon: [Protocol v0.4.0.1][server-0401]
 
-| feature | [server@0.4.0.1][server-0401] | [W_Ext@?][wallet-ext] | [W_Mob@?][wallet-mob] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
+| feature | [server@0.4.0.1][server-0401] | [W_Ext@?][wallet-extension] | [W_Mob@?][wallet-mobile] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | hashlock with alias | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
 | optin cosigners | :white_check_mark: | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
@@ -74,7 +74,7 @@ Following table describes the status attributions for each of the icons that wil
 
 ### Cow: [Protocol v0.3.0.2][server-0302]
 
-| feature | [server@0.3.0.2][server-0302] | [W_Ext@?][wallet-ext] | [W_Mob@?][wallet-mob] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
+| feature | [server@0.3.0.2][server-0302] | [W_Ext@?][wallet-extension] | [W_Mob@?][wallet-mobile] | [W_Hardware@?][wallet-hardware] | [Explorer@?][explorer] | [Faucet@?][faucet] | [CLI@?][cli] |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | catbuffer | :white_check_mark:  | :stop_sign:  | :stop_sign:  |  :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | mosaic/namespace split | :white_check_mark:  | :stop_sign:  | :stop_sign:  | :stop_sign:  | :stop_sign: | :stop_sign: | :stop_sign: |
