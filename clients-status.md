@@ -3,7 +3,7 @@
 ## Table of contents
 
 - [Abstract](#abstract)
-- [Client Applications][#client-applications]
+- [Client Applications](#client-applications)
 - [Protocol Version Compatibilities](#protocol-version-compatibilities)
   - [Icon Status Attribution](#icon-status-attribution)
   - [Elephant: Protocol v0.5.?.?](#elephant-protocol-v05)
@@ -23,18 +23,18 @@ Following client applications are taken into account for this compatibility stat
 
 | Deliverable | Package Name | Codename | Repository URL |
 | :-: | :-: | :-: | :-: |
-|**Wallets** | | |
+| **Wallets** | | | |
 | Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | https://github.com/nemfoundation/nem2-wallet-browserextension |
 | Hatio RFP (iOS + Android) | nem2-wallet-mobile | W_Mob | N/A |
 | Hardware Wallets Integrations | nem2-wallet-hardware | W_Hardware | N/A |
-|**Explorers** | | |
+| **Explorers** | | | |
 | Node/Block Explorer | nem2-explorer | Explorer | https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server |
-|**Faucet** | | |
+| **Faucet** | | | |
 | Catapult Faucet | nem2-faucet | Faucet | https://github.com/44uk/nem2-faucet |
-|**Command Line** | | |
+| **Command Line** | | | |
 | NEM2 CLI | nem2-cli | CLI | https://github.com/nemtech/nem2-cli |
 | NEM2 Prototypes | nem2-prototyping-tool | CLI | https://github.com/nemtech/nem2-cli |
-|**Documentation** | | |
+| **Documentation** | | | |
 | NEM Academy | nem2-curricular-framework | Academy | https://github.com/nemtech/nem2-curricular-framework |
 | NEM Developer Center | nem2-docs | DevCenter | https://github.com/nemtech/nem2-docs |
 
