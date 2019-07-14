@@ -24,19 +24,18 @@ Following client applications are taken into account for this compatibility stat
 | Deliverable | Package Name | Codename | Repository URL |
 | :-: | :-: | :-: | :-: |
 | **Wallets** | | | |
-| Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | https://github.com/nemfoundation/nem2-wallet-browserextension |
+| Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | [nem2-wallet-browserextension][wallet-extension] |
 | Hatio RFP (iOS + Android) | nem2-wallet-mobile | W_Mob | N/A |
 | Hardware Wallets Integrations | nem2-wallet-hardware | W_Hardware | N/A |
 | **Explorers** | | | |
-| Node/Block Explorer | nem2-explorer | Explorer | https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server |
+| Node/Block Explorer | nem2-explorer | Explorer | [nem2-explorer][explorer] |
 | **Faucet** | | | |
-| Catapult Faucet | nem2-faucet | Faucet | https://github.com/44uk/nem2-faucet |
+| Catapult Faucet | nem2-faucet | Faucet | [nem2-faucet][faucet] |
 | **Command Line** | | | |
-| NEM2 CLI | nem2-cli | CLI | https://github.com/nemtech/nem2-cli |
-| NEM2 Prototypes | nem2-prototyping-tool | CLI | https://github.com/nemtech/nem2-cli |
+| NEM2 CLI | nem2-cli | CLI | [nem2-cli][cli] |
 | **Documentation** | | | |
-| NEM Academy | nem2-curricular-framework | Academy | https://github.com/nemtech/nem2-curricular-framework |
-| NEM Developer Center | nem2-docs | DevCenter | https://github.com/nemtech/nem2-docs |
+| NEM Academy | nem2-curricular-framework | Academy | [nem2-curricular-framework][doc-curricular] |
+| NEM Developer Center | nem2-docs | DevCenter | [nem2-docs][doc-devcenter] |
 
 ## Protocol Version Compatibilities
 
@@ -103,3 +102,5 @@ Following table describes the status attributions for each of the icons that wil
 [explorer]: https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server
 [faucet]: https://github.com/44uk/nem2-faucet
 [cli]: https://github.com/nemtech/nem2-cli
+[doc-curricular]: https://github.com/nemtech/nem2-curricular-framework
+[doc-devcenter]: https://github.com/nemtech/nem2-docs
