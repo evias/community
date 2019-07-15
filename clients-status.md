@@ -28,7 +28,7 @@ Following client applications are taken into account for this compatibility stat
 | Browser Extension Wallet | nem2-wallet-browserextension | [nem2-wallet-browserextension][wallet-extension] |
 | Desktop Wallet | nem2-desktop-wallet | [nem2-desktop-wallet][wallet-desktop] |
 | Mobile Wallet | nem2-mobile-wallet | [nem2-mobile-wallet][wallet-mobile]
-| Hatio RFP (iOS + Android) | nem2-wallet-mobile | N/A |
+| RFP Wallet (iOS + Android) | nem2-wallet-mobile | [nem-catapult-wallet][wallet-rfp] |
 | Hardware Wallets Integrations | nem2-wallet-hardware | N/A |
 | **Explorers** | | |
 | Node/Block Explorer | nem2-explorer | [nem2-explorer][explorer] |
@@ -55,26 +55,26 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 - [nem2-wallet-browserextension][wallet-extension]
 - [nem2-desktop-wallet][wallet-desktop]
 - [nem2-mobile-wallet][wallet-mobile]
-- [nem2-mobile-app][wallet-rfp]
+- [nem-catapult-wallet][wallet-rfp] (RFP)
 - [nem2-cli][cli]
 
 #### Stories
 
-| User Story | [Command Line][cli] | [Browser Extension][wallet-extension] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-mobile] | [Hardware Wallet][wallet-hardware] |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| **Accounts** | | | | | |
-| User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can create new HD account | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can create multiple accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can name accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can import private key | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can import pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can export private key | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can export pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can link account (harvesting) | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| Private key / Pass phrase storage is secure | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| | | | | | |
-| **Data Services** | | | | | |
+| User Story | [Command Line][cli] | [Browser Extension][wallet-extension] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-mobile] | [RFP Wallet][wallet-rfp] | [Hardware Wallet][wallet-hardware] |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| **Accounts** | | | | | | |
+| User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can create new HD account | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can create multiple accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can name accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can import private key | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can import pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can export private key | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can export pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can link account (harvesting) | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| Private key / Pass phrase storage is secure | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| | | | | | | |
+| **Data Services** | | | | | | |
 | User can view mosaic balances | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can view transaction history | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can view transaction details | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
@@ -88,23 +88,23 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 | User can export transaction history | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can switch network _node_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can switch _network_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| | | | | | |
-| **Usability** | | | | | |
+| | | | | | | |
+| **Usability** | | | | | | |
 | User can read QR Code | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can export Account with QR Code | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can export Transaction with QR Code (Invoices) | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can export Transaction with QR Code (Invoices) | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can switch _language_  | :stop_sign:| :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can use aliases for Mosaics | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can use aliases for Accounts | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| | | | | | |
-| **Transactions** | | | | | |
+| | | | | | | |
+| **Transactions** | | | | | | |
 | _User can issue Transaction URI*_ | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can specify transaction MAX_FEE | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Transfer without message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Transfer with message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Transfer with encrypted message | :stop_sign: | :o: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Alias for mosaic | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can issue Alias for account | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can issue Alias for account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Aggregate Complete with multiple transfers | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Aggregate Complete with custom transactions | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Cosignature | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
@@ -129,45 +129,46 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 
 The Explorer project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
+- [dev-block-explorer][explorer-mijin]
 - [nem2-explorer][explorer]
 
 #### Stories
 
-| User Story | Integration Status |
-| :-: | :-: |
-| User can view account balances | :stop_sign: |
-| User can view transaction history | :stop_sign: |
-| User can view transaction details | :stop_sign: |
-| User can view mosaic alias info | :stop_sign: |
-| User can view account alias info | :stop_sign: |
-| User can view block history | :stop_sign: |
-| User can view receipts data | :stop_sign: |
-| User can export transaction history | :stop_sign: |
-| User can view network nodes | :stop_sign: |
-| User can view node version | :stop_sign: |
-| User can view beneficiary info | :stop_sign: |
-| | |
-| **Transactions** | |
-| User can view Transfer without message | :stop_sign: |
-| User can view Transfer with message | :stop_sign: |
-| User can view Transfer with encrypted message | :stop_sign: |
-| User can view Alias for mosaic | :stop_sign: |
-| User can view Alias for account | :stop_sign: |
-| User can view Aggregate Complete with multiple transfers | :stop_sign: |
-| User can view Aggregate Complete with custom transactions | :stop_sign: |
-| User can view Cosignature | :stop_sign: |
-| User can view Register Namespace | :stop_sign: |
-| User can view Mosaic Definition | :stop_sign: |
-| User can view Mosaic Supply Change | :stop_sign: |
-| User can view Secret Lock | :stop_sign: |
-| User can view Secret Proof | :stop_sign: |
-| User can view Hash Lock | :stop_sign: |
-| User can view Secret Lock | :stop_sign: |
-| User can view Multisig Account Modification | :stop_sign: |
-| User can view Multisig Cosignatory Modification | :stop_sign: |
-| User can view Account Address Restriction | :stop_sign: |
-| User can view Account Mosaic Restriction | :stop_sign: |
-| User can view Account Operation Restriction | :stop_sign: |
+| User Story | Dev Block Explorer | Explorer Framework |
+| :-: | :-: | :-: |
+| User can view account balances | :white_check_mark: | :stop_sign: |
+| User can view transaction history | :white_check_mark: | :stop_sign: |
+| User can view transaction details | :white_check_mark: | :stop_sign: |
+| User can view mosaic alias info | :stop_sign: | :stop_sign: |
+| User can view account alias info | :stop_sign: | :stop_sign: |
+| User can view namespace info | :white_check_mark: | :stop_sign: |
+| User can view block history | :white_check_mark: | :stop_sign: |
+| User can view receipts data | :white_check_mark: | :stop_sign: |
+| User can export transaction history | :stop_sign: | :stop_sign: |
+| User can view network nodes | :stop_sign: | :stop_sign: |
+| User can view node version | :stop_sign: | :stop_sign: |
+| User can view beneficiary info | :stop_sign: | :stop_sign: |
+| | | |
+| **Transactions** | | |
+| User can view Transfer without message | :white_check_mark: | :stop_sign: |
+| User can view Transfer with message | :white_check_mark: | :stop_sign: |
+| User can view Transfer with encrypted message | :stop_sign: | :stop_sign: |
+| User can view Alias for mosaic | :stop_sign: | :stop_sign: |
+| User can view Alias for account | :stop_sign: | :stop_sign: |
+| User can view Aggregate Complete with multiple transfers | :white_check_mark: | :stop_sign: |
+| User can view Aggregate Complete with custom transactions | :white_check_mark: | :stop_sign: |
+| User can view Cosignature | :white_check_mark: | :stop_sign: |
+| User can view Register Namespace | :white_check_mark: | :stop_sign: |
+| User can view Mosaic Definition | :white_check_mark: | :stop_sign: |
+| User can view Mosaic Supply Change | :white_check_mark: | :stop_sign: |
+| User can view Secret Lock | :white_check_mark: | :stop_sign: |
+| User can view Secret Proof | :white_check_mark: | :stop_sign: |
+| User can view Hash Lock | :white_check_mark: | :stop_sign: |
+| User can view Multisig Account Modification | :white_check_mark: | :stop_sign: |
+| User can view Multisig Cosignatory Modification | :white_check_mark: | :stop_sign: |
+| User can view Account Address Restriction | :white_check_mark: | :stop_sign: |
+| User can view Account Mosaic Restriction | :white_check_mark: | :stop_sign: |
+| User can view Account Operation Restriction | :white_check_mark: | :stop_sign: |
 
 ### Faucet
 
@@ -201,9 +202,10 @@ The Faucet project was released by a community member. The source code for this 
 [wallet-extension]: https://github.com/nemfoundation/nem2-wallet-browserextension
 [wallet-desktop]: https://github.com/NemTechCN/NEM2_Desktop_Wallet_CN
 [wallet-mobile]: https://github.com/NemTechCN/nem2-mwallet-CN
-[wallet-rfp]: #
+[wallet-rfp]: git@github.com:vishrayne/nem-catapult-wallet.git
 [wallet-hardware]: #
 [explorer]: https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server
+[explorer-mijin]: https://github.com/nemtech/dev-block-explorer
 [faucet]: https://github.com/44uk/nem2-faucet
 [cli]: https://github.com/nemtech/nem2-cli
 [doc-curricular]: https://github.com/nemtech/nem2-curricular-framework
