@@ -83,7 +83,7 @@ The Browser Extension Wallet project is the object of [NIP-5][nip-5]. The source
 | User can view receipts data | :stop_sign: |
 | User is notified about transactions | :white_check_mark: |
 | User is notified about pending co-sigs | :stop_sign: |
-| User can view pending co-sigs | :stop_sign: |
+| User can view pending co-sigs | :white_check_mark: |
 | User can export transaction history | :stop_sign: |
 | User can switch network _node_ | :white_check_mark: |
 | User can switch _network_ | :white_check_mark: |
@@ -92,7 +92,7 @@ The Browser Extension Wallet project is the object of [NIP-5][nip-5]. The source
 | User can read QR Code | :stop_sign: |
 | User can export Account with QR Code | :white_check_mark: |
 | User can export Transaction with QR Code (Invoices) | :stop_sign: |
-| User can switch _language_ | :stop_sign: |
+| User can switch _language_ | :white_check_mark: |
 | User can use aliases for Mosaics | :stop_sign: |
 | User can use aliases for Accounts | :stop_sign: |
 | | |
@@ -106,9 +106,9 @@ The Browser Extension Wallet project is the object of [NIP-5][nip-5]. The source
 | User can issue Alias for account | :stop_sign: |
 | User can issue Aggregate Complete with multiple transfers | :stop_sign: |
 | User can issue Aggregate Complete with custom transactions | :stop_sign: |
-| User can issue Cosignature | :stop_sign: |
-| User can issue Register Namespace | :stop_sign: |
-| User can issue Mosaic Definition | :stop_sign: |
+| User can issue Cosignature | :white_check_mark: |
+| User can issue Register Namespace | :white_check_mark: |
+| User can issue Mosaic Definition | :white_check_mark: |
 | User can issue Mosaic Supply Change | :stop_sign: |
 | User can issue Secret Lock | :stop_sign: |
 | User can issue Secret Proof | :stop_sign: |
