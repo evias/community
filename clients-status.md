@@ -56,10 +56,11 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 - [nem2-desktop-wallet][wallet-desktop]
 - [nem2-mobile-wallet][wallet-mobile]
 - [nem2-mobile-app][wallet-rfp]
+- [nem2-cli][cli]
 
 #### Stories
 
-| User Story | Command Line | Browser Extension | Desktop Wallet | Mobile Wallet | Hardware Wallet |
+| User Story | [Command Line][cli] | [Browser Extension][wallet-extension] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-mobile] | [Hardware Wallet][wallet-hardware] |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | **Accounts** | | | | | |
 | User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
