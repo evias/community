@@ -60,7 +60,7 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 
 #### Stories
 
-| User Story | [Command Line][cli] | [Browser Extension][wallet-extension] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-mobile] | [RFP Wallet][wallet-rfp] | [Hardware Wallet][wallet-hardware] |
+| User Story | [Command Line][cli] | [Browser Extension][wallet-extension] | [Desktop Wallet][wallet-desktop] | [Mobile Wallet][wallet-mobile] | [RFP Wallet][wallet-rfp] | [Hardware Wallet][wallet-hardware] |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | **Accounts** | | | | | | |
 | User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
@@ -141,9 +141,10 @@ The Explorer project is being worked on by a team in the foundation. The source 
 | User can view transaction details | :white_check_mark: | :stop_sign: |
 | User can view mosaic alias info | :stop_sign: | :stop_sign: |
 | User can view account alias info | :stop_sign: | :stop_sign: |
-| User can view namespace info | :white_check_mark: | :stop_sign: |
+| User can view namespace info | :stop_sign: | :stop_sign: |
 | User can view block history | :white_check_mark: | :stop_sign: |
-| User can view receipts data | :white_check_mark: | :stop_sign: |
+| User can view receipts data | :stop_sign: | :stop_sign: |
+| User can view merkle data | :white_check_mark: | :stop_sign: |
 | User can export transaction history | :stop_sign: | :stop_sign: |
 | User can view network nodes | :stop_sign: | :stop_sign: |
 | User can view node version | :stop_sign: | :stop_sign: |
@@ -155,20 +156,20 @@ The Explorer project is being worked on by a team in the foundation. The source 
 | User can view Transfer with encrypted message | :stop_sign: | :stop_sign: |
 | User can view Alias for mosaic | :stop_sign: | :stop_sign: |
 | User can view Alias for account | :stop_sign: | :stop_sign: |
-| User can view Aggregate Complete with multiple transfers | :white_check_mark: | :stop_sign: |
-| User can view Aggregate Complete with custom transactions | :white_check_mark: | :stop_sign: |
+| User can view details of Aggregate Complete with multiple transfers | :white_check_mark: | :stop_sign: |
+| User can view details of Aggregate Complete with custom transactions | :white_check_mark: | :stop_sign: |
 | User can view Cosignature | :white_check_mark: | :stop_sign: |
-| User can view Register Namespace | :white_check_mark: | :stop_sign: |
-| User can view Mosaic Definition | :white_check_mark: | :stop_sign: |
-| User can view Mosaic Supply Change | :white_check_mark: | :stop_sign: |
-| User can view Secret Lock | :white_check_mark: | :stop_sign: |
-| User can view Secret Proof | :white_check_mark: | :stop_sign: |
-| User can view Hash Lock | :white_check_mark: | :stop_sign: |
-| User can view Multisig Account Modification | :white_check_mark: | :stop_sign: |
-| User can view Multisig Cosignatory Modification | :white_check_mark: | :stop_sign: |
-| User can view Account Address Restriction | :white_check_mark: | :stop_sign: |
-| User can view Account Mosaic Restriction | :white_check_mark: | :stop_sign: |
-| User can view Account Operation Restriction | :white_check_mark: | :stop_sign: |
+| User can view details of Register Namespace | :white_check_mark: | :stop_sign: |
+| User can view details of Mosaic Definition | :white_check_mark: | :stop_sign: |
+| User can view details of Mosaic Supply Change | :white_check_mark: | :stop_sign: |
+| User can view details of Secret Lock | :white_check_mark: | :stop_sign: |
+| User can view details of Secret Proof | :white_check_mark: | :stop_sign: |
+| User can view details of Hash Lock | :white_check_mark: | :stop_sign: |
+| User can view details of Multisig Account Modification | :white_check_mark: | :stop_sign: |
+| User can view details of Multisig Cosignatory Modification | :white_check_mark: | :stop_sign: |
+| User can view details of Account Address Restriction | :white_check_mark: | :stop_sign: |
+| User can view details of Account Mosaic Restriction | :white_check_mark: | :stop_sign: |
+| User can view details of Account Operation Restriction | :white_check_mark: | :stop_sign: |
 
 ### Faucet
 
@@ -202,7 +203,7 @@ The Faucet project was released by a community member. The source code for this 
 [wallet-extension]: https://github.com/nemfoundation/nem2-wallet-browserextension
 [wallet-desktop]: https://github.com/NemTechCN/NEM2_Desktop_Wallet_CN
 [wallet-mobile]: https://github.com/NemTechCN/nem2-mwallet-CN
-[wallet-rfp]: git@github.com:vishrayne/nem-catapult-wallet.git
+[wallet-rfp]: https://github.com/vishrayne/nem-catapult-wallet.git
 [wallet-hardware]: #
 [explorer]: https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server
 [explorer-mijin]: https://github.com/nemtech/dev-block-explorer
