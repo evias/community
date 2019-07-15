@@ -25,23 +25,20 @@ The document should provide with an easy aggregation of all features addressed i
 
 Following client applications are taken into account for this compatibility status update:
 
-| Deliverable | Package Name | Codename | Repository URL |
-| :-: | :-: | :-: | :-: |
-| **Wallets** | | | |
-| Browser Extension Wallet | nem2-wallet-browserextension | W_Ext | [nem2-wallet-browserextension][wallet-extension] |
-| Desktop Wallet | nem2-desktop-wallet | W_Desk | [nem2-desktop-wallet][wallet-desktop] |
-| Mobile Wallet | nem2-mobile-wallet | W_Mob | [nem2-mobile-wallet][wallet-mobile]
-| Hatio RFP (iOS + Android) | nem2-wallet-mobile | W_RFP | N/A |
-| Hardware Wallets Integrations | nem2-wallet-hardware | W_Hardware | N/A |
-| **Explorers** | | | |
-| Node/Block Explorer | nem2-explorer | Explorer | [nem2-explorer][explorer] |
+| Deliverable | Package Name | Repository URL |
+| :-: | :-: | :-: |
+| **Wallets** | | |
+| Browser Extension Wallet | nem2-wallet-browserextension | [nem2-wallet-browserextension][wallet-extension] |
+| Desktop Wallet | nem2-desktop-wallet | [nem2-desktop-wallet][wallet-desktop] |
+| Mobile Wallet | nem2-mobile-wallet | [nem2-mobile-wallet][wallet-mobile]
+| Hatio RFP (iOS + Android) | nem2-wallet-mobile | N/A |
+| Hardware Wallets Integrations | nem2-wallet-hardware | N/A |
+| **Explorers** | | |
+| Node/Block Explorer | nem2-explorer | [nem2-explorer][explorer] |
 | **Faucet** | | | |
-| Catapult Faucet | nem2-faucet | Faucet | [nem2-faucet][faucet] |
-| **Command Line** | | | |
-| NEM2 CLI | nem2-cli | CLI | [nem2-cli][cli] |
-| **Documentation** | | | |
-| NEM Academy | nem2-curricular-framework | Academy | [nem2-curricular-framework][doc-curricular] |
-| NEM Developer Center | nem2-docs | DevCenter | [nem2-docs][doc-devcenter] |
+| Catapult Faucet | nem2-faucet | [nem2-faucet][faucet] |
+| **Command Line** | | |
+| NEM2 CLI | nem2-cli | [nem2-cli][cli] |
 
 ## Features Compatibilities
 
@@ -51,17 +48,14 @@ Following table describes the status attributions for each of the icons that wil
 
 | Icon | Status |
 | :-: | :-: |
-| :question: | Investigation/Research is currently in progress. |
 | :white_check_mark: | Feature is available. |
-| :o: | Work in Progress (WIP) |
 | :stop_sign: | Feature is not available. |
-| :negative_squared_cross_mark: | Feature is **not needed**. |
 
 ### Browser Extension Wallet
 
 The Browser Extension Wallet project is the object of [NIP-5][nip-5]. The source code for this Software Package can be found at:
 
-    [nem2-wallet-browserextension][wallet-extension]
+- [nem2-wallet-browserextension][wallet-extension]
 
 #### Stories
 
@@ -132,7 +126,7 @@ The Browser Extension Wallet project is the object of [NIP-5][nip-5]. The source
 
 The Desktop Wallet project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
-    [nem2-desktop-wallet][wallet-desktop]
+- [nem2-desktop-wallet][wallet-desktop]
 
 #### Stories
 
@@ -201,7 +195,7 @@ The Desktop Wallet project is being worked on by a team in the foundation. The s
 
 The Mobile Wallet project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
-    [nem2-mobile-wallet][wallet-mobile]
+- [nem2-mobile-wallet][wallet-mobile]
 
 #### Stories
 
@@ -337,7 +331,7 @@ The Hardware Wallets project is **currently not assigned**. There is no resource
 
 The Explorer project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
-    [nem2-explorer][explorer]
+- [nem2-explorer][explorer]
 
 #### Stories
 
@@ -381,7 +375,7 @@ The Explorer project is being worked on by a team in the foundation. The source 
 
 The Faucet project was released by a community member. The source code for this Software Package can be found at:
 
-    [nem2-faucet][faucet]
+- [nem2-faucet][faucet]
 
 #### Stories
 
@@ -400,7 +394,7 @@ The Faucet project was released by a community member. The source code for this 
 
 The nem2-cli project is being worked on by a team in the foundation. The source code for this Software Package can be found at:
 
-    [nem2-cli][cli]
+- [nem2-cli][cli]
 
 #### Stories
 
