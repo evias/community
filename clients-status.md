@@ -59,65 +59,65 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 | User Story | [Command Line][cli] | [Wallet Desktop Build][wallet-desktop] | [Mobile Wallet][wallet-rfp] | [Hardware Wallet][wallet-hardware] |
 | :-: | :-: | :-: | :-: | :-: |
 | **Accounts** | | | | |
-| User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can create new account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can create new HD account | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can create multiple accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can name accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can import private key | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can create multiple accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can name accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can import private key | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can import pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can export private key | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can export private key | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can export pass phrase | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can link account (harvesting) | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can link account (harvesting) | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | Private key / Pass phrase storage is secure | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | | | | | | | |
 | **Data Services** | | | | | | |
-| User can view mosaic balances | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can view transaction history | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can view transaction details | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can view mosaic alias info | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can view mosaic balances | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can view transaction history | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can view transaction details | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can view mosaic alias info | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can view account alias info | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can view block data | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can view receipts data | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User is notified about transactions | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User is notified about transactions | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User is notified about pending co-sigs | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can view pending co-sigs | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can view pending co-sigs | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can export transaction history | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can switch network _node_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can switch _network_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can switch network _node_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can switch _network_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | | | | | | | |
 | **Usability** | | | | | | |
 | User can read QR Code | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can export Account with QR Code | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can export Transaction with QR Code (Invoices) | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can switch _language_  | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can export Account with QR Code | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can export Transaction with QR Code (Invoices) | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can switch _language_  | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can use aliases for Mosaics | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can use aliases for Accounts | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | | | | | | | |
 | **Transactions** | | | | | | |
-| _User can issue Transaction URI*_ | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can specify transaction MAX_FEE | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Transfer without message | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Transfer with message | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| _User can issue Transaction URI*_ | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can specify transaction MAX_FEE | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Transfer without message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Transfer with message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Transfer with encrypted message | :stop_sign: | :o: | :stop_sign: | :stop_sign: |
-| User can issue Alias for mosaic | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Alias for account | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can issue Alias for mosaic | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Alias for account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Aggregate Complete with multiple transfers | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Aggregate Complete with custom transactions | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can issue Cosignature | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Register Namespace | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Mosaic Definition | :white_check_mark: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can issue Cosignature | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Register Namespace | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Mosaic Definition | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Mosaic Supply Change | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Secret Lock | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Secret Proof | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Hash Lock | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Secret Lock | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can issue Multisig Account Modification | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Multisig Cosignatory Modification | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can issue Multisig Account Modification | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Multisig Cosignatory Modification | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | Multisig Account Modification requires opt-in | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | Multisig Cosignatory Modification requires opt-in | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can issue Account Address Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Account Mosaic Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
-| User can issue Account Operation Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :white_check_mark: |
+| User can issue Account Address Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Account Mosaic Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can issue Account Operation Restriction | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 
 * **Due to the possibility of issuing Transaction URI, in fact any transaction type can be issued. Each transaction type is listed as to determine whether there is _screen to prepare_ said transaction types.**
 
