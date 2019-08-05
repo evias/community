@@ -93,6 +93,3 @@ Following table describes the status attributions for each of the icons that wil
 [sdk-php]: https://github.com/VistResearch/nem2-sdk-php
 [sdk-swift]: https://github.com/ryuta46/nem2-sdk-swift
 [sdk-csharp]: https://github.com/nemtech/nem2-sdk-csharp
-[docs]: https://nemtech.github.io
-[docs-0176]: https://github.com/nemtech/nem2-docs/releases/tag/v0.17.6
-[docs-0162]: https://github.com/nemtech/nem2-docs/releases/tag/v0.16.2
