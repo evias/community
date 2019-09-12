@@ -196,11 +196,11 @@ The Faucet project was released by a community member. The source code for this 
 [server-0501]: https://github.com/nemtech/catapult-server/releases/tag/v0.5.0.1
 [server-0401]: https://github.com/nemtech/catapult-server/releases/tag/v0.4.0.1
 [server-0302]: https://github.com/nemtech/catapult-server/releases/tag/v0.3.0.2
-[wallet-desktop]: https://github.com/nemfoundation/nem2-wallet-browserextension
+[wallet-desktop]: https://github.com/nemfoundation/nem2-desktop-wallet
 [wallet-mobile]: https://github.com/NemTechCN/nem2-mwallet-CN
 [wallet-rfp]: https://github.com/vishrayne/nem-catapult-wallet.git
 [wallet-hardware]: #
-[explorer]: https://gitlab.com/joegeorge/explorer.nem.io/tree/master/server
+[explorer]: https://github.com/nemfoundation/nem2-explorer
 [explorer-mijin]: https://github.com/nemtech/dev-block-explorer
 [faucet]: https://github.com/44uk/nem2-faucet
 [cli]: https://github.com/nemtech/nem2-cli
