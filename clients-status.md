@@ -44,6 +44,7 @@ Following table describes the status attributions for each of the icons that wil
 | Icon | Status |
 | :-: | :-: |
 | :white_check_mark: | Feature is available. |
+| :heavy_minus_sign: | Not applies. |
 | :stop_sign: | Feature is not available. |
 
 ### Wallets
@@ -77,32 +78,32 @@ Wallet packages are being worked on mostly by foundation teams. Following packag
 | User can view mosaic alias info | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can view account alias info | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can view block data | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can view receipts data | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User is notified about transactions | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
-| User is notified about pending co-sigs | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can view receipts data | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User is notified about transactions | :white_check_mark:  | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User is notified about pending co-sigs |  :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can view pending co-sigs | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can export transaction history | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can switch network _node_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can switch _network_ | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | | | | | | | |
 | **Usability** | | | | | | |
-| User can read QR Code | :stop_sign: | :stop_sign: | :white_check_mark: | :stop_sign: |
-| User can export Account with QR Code | :stop_sign: | :white_check_mark: | :white_check_mark: | :stop_sign: |
-| User can export Transaction with QR Code (Invoices) | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can read QR Code | :heavy_minus_sign: | :stop_sign: | :white_check_mark: | :stop_sign: |
+| User can export Account with QR Code | :heavy_minus_sign:| :white_check_mark: | :white_check_mark: | :stop_sign: |
+| User can export Transaction with QR Code (Invoices) | :heavy_minus_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can switch _language_  | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can use aliases for Mosaics | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can use aliases for Accounts | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | | | | | | | |
 | **Transactions** | | | | | | |
 | _User can issue Transaction URI*_ | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can specify transaction MAX_FEE | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| User can specify transaction MAX_FEE | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Transfer without message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Transfer with message | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Transfer with encrypted message | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Alias for mosaic | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Alias for account | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
-| User can issue Aggregate Complete with multiple transfers | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
-| User can issue Aggregate Complete with custom transactions | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can issue Aggregate Complete with multiple transfers | :heavy_minus_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| User can issue Aggregate Complete with custom transactions | :heavy_minus_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Cosignature | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | User can issue Register Namespace | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
 | User can issue Mosaic Definition | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
@@ -202,6 +203,5 @@ The Faucet project was released by a community member. The source code for this 
 [explorer-mijin]: https://github.com/nemtech/dev-block-explorer
 [faucet]: https://github.com/44uk/nem2-faucet
 [cli]: https://github.com/nemtech/nem2-cli
-[doc-curricular]: https://github.com/nemtech/nem2-curricular-framework
 [doc-devcenter]: https://github.com/nemtech/nem2-docs
 [nip-5]: https://github.com/nemtech/NIP/blob/master/NIPs/nip-0005.md
