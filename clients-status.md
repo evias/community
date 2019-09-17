@@ -72,11 +72,11 @@ Following table gives an overview of several release candidate packages:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Feature Completeness** | | | | | | | | | |
 | Mosaics features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :white_check_mark: |
-| Aliases features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Aliases features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
 | Multi-Signature features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
-| Aggregate Transactions | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | 
+| Aggregate Transactions | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | 
 | Accounts Mgmt features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
-| Advanced Cryptography | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Advanced Cryptography | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | Validator features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
 | Full node capacity | :white_check_mark: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :stop_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign: |
 | Optimized user experience | :white_check_mark: | :stop_sign: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: |
