@@ -4,12 +4,13 @@
 
 - [Abstract](#abstract)
 - [Client Applications](#client-applications)
-- [Features Compatibilities](#features-compatibilities)
-  - [Icon Status Attribution](#icon-status-attribution)
+- [Icon Status Attribution](#icon-status-attribution)
+- [Release Candidate Feature Sets](#release-candidate-feature-sets)
+  - [Release Candidate Dashboard](#release-candidate-dashboard)
+- [User Stories](#user-stories)
   - [Wallets](#wallets)
   - [Explorer](#explorer)
   - [Faucet](#faucet)
-  - [Command Line Interface](#command-line-interface)
 - [History](#history)	
 
 ## Abstract
@@ -35,17 +36,59 @@ Following client applications are taken into account for this compatibility stat
 | **Command Line** | | |
 | NEM2 CLI | nem2-cli | [nem2-cli][cli] |
 
-## Features Compatibilities
-
-### Icon Status Attribution
+## Icon Status Attribution
 
 Following table describes the status attributions for each of the icons that will be used in the protocol features compatibility tables:
 
 | Icon | Status |
 | :-: | :-: |
 | :white_check_mark: | Feature is available. |
-| :heavy_minus_sign: | Not applies. |
+| :heavy_minus_sign: | Feature does not apply. |
 | :stop_sign: | Feature is not available. |
+
+## Release Candidate Feature Sets
+
+Following table should explain line items of the release candidate dashboard:
+
+| Topic | Description |
+| --- | --- |
+| Mosaics features | The package can read mosaics and lets users interact with mosaics (manage). |
+| Aliases features | The package can read aliases and lets users interact with aliases (manage). |
+| Multi-Signature features | The package can read multi-signature information and lets users interact multi-signature accounts. |
+| Aggregate Transactions | The package can read aggregate transactions and lets users create custom aggregate transactions. |
+| Accounts Mgmt features | The package can read account information and lets users interact with accounts (manage). |
+| Advanced Cryptography | The package can read merkle state trees and receipts and lets users interact with those. |
+| Validator features | The package can validate transactions. |
+| Full node capacity | The package can create blocks for Catapult networks. |
+| Migration features | The package can read and create migration related transactions. |
+
+### Release Candidate Dashboard
+
+Following table gives an overview of several release candidate packages:
+
+| Topic | Server | REST | SDK JS | SDK Java | Command Line | Desktop Wallet | Mobile Wallet | Hardware Wallet | Explorer Framework |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Feature Completeness** | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Mosaics features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | | :white_check_mark: | :stop_sign: | :stop_sign: | :white_check_mark: |
+| Aliases features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Multi-Signature features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Aggregate Transactions | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | 
+| Accounts Mgmt features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Advanced Cryptography | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :white_check_mark: | :stop_sign: | :stop_sign: |
+| Validator features | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| Full node capacity | :white_check_mark: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| Migration features | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Deliverables** | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Release Candidate Tag | [0.7.0.1][catapult-0701] | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Dates** | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Beta Test Start Date | 02.09.2019 | 01.10.2019 | 01.10.2019 | 01.10.2019 | 01.10.2019 | 01.10.2019 | 01.10.2019 | :stop_sign: | 01.10.2019 |
+| Hackerone Start Date | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| Pentesting Start Date | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+| Community Testing Start Date | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: | :stop_sign: |
+
+## User Stories
 
 ### Wallets
 
@@ -192,6 +235,8 @@ The Faucet project was released by a community member. The source code for this 
 | Jul 14 2019   | Initial Draft   |
 | Sep 12 2019   | Second Update   |
 
+[catapult-0701]: https://github.com/nemtech/catapult-server/releases/tag/v0.7.0.1
+[rest-0718]: https://github.com/nemtech/catapult-rest/releases/tag/v0.7.18
 [wallet-desktop]: https://github.com/nemfoundation/nem2-desktop-wallet
 [wallet-mobile]: https://github.com/NemTechCN/nem2-mwallet-CN
 [wallet-rfp]: https://github.com/vishrayne/nem-catapult-wallet.git
